@@ -3,10 +3,10 @@
 <head>
     <title>FOIL Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="FOIL-Bar.css" rel="stylesheet">
-    <script src="Auto_Display.js"></script>
+    <link href="/System_Files/css/FOIL-Bar.css" rel="stylesheet">
+    <script src="/System_Files/js/Auto_Display.js"></script>
     <noscript>
-        <link href="index.css" rel="stylesheet"></noscript>
+        <link href="/System_Files/css/index.css" rel="stylesheet"></noscript>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
             <div class="clock"></div>
         </h1>
         <h2>
-            <script src="Greeting.js"></script>
+            <script src="/System_Files/js/Greeting.js"></script>
         </h2>
-        <script src="FOIL-Time.js"></script>
+        <script src="/System_Files/js/FOIL-Time.js"></script>
     </div>
 
 
