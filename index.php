@@ -12,7 +12,7 @@
 <body>
 
     <div class="main-screen color">
-        <h1> 
+        <h1>
             <div class="clock"></div>
         </h1>
         <h2>
@@ -24,7 +24,8 @@
 
     <div class="main-secondary-screen color">
         <div class="main-secondary-screen">
-
+            <a href="#Applications" class="button">Applications</a>
+            <?php include("System_Files/php/system-applications-menu.php"); ?>
 
 
 
