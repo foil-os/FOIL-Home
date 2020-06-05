@@ -1,0 +1,333 @@
+/* AnalogClock.css */
+body{
+  background-color:black;
+  color:white;
+}
+
+.clock {
+  position: absolute;
+  /* Left command must be 50 % */
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  /* Background color for inside of the analog clock */
+  background-color: white;
+
+  border-radius: 50%;
+}
+
+.clock:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 188px;
+  margin-left: 190px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.clock .clock--arrow {
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  opacity: 0;
+  transition: opacity, transform 0.5s ease;
+}
+
+.clock .clock--arrow[data-value] {
+  opacity: 1;
+}
+
+.clock .clock--arrow[data-value="0"] {
+  transition: none;
+}
+
+.clock .clock__seconds:before {
+  position: absolute;
+  content: "";
+  margin-top: -180px;
+  height: 180px;
+  width: 2px;
+  background-color: red; /* Background color for the seconds hand */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+}
+
+.clock .clock__minutes:before {
+  position: absolute;
+  content: "";
+  margin-top: -180px;
+  height: 180px;
+  width: 2px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+}
+
+.clock .clock__hours:before {
+  position: absolute;
+  content: "";
+  margin-top: -100px;
+  height: 100px;
+  width: 4px;
+  background-color: black; /* Background-color for the hour hand */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CLOCK ALGORITHM FOR THE WHOLE CLOCK  */  
+   .clock .clock--arrow[data-value="60"] {
+  transform: rotate(360deg);
+}
+
+.clock .clock--arrow[data-value="59"] {
+  transform: rotate(354deg);
+}
+
+.clock .clock--arrow[data-value="58"] {
+  transform: rotate(348deg);
+}
+
+.clock .clock--arrow[data-value="57"] {
+  transform: rotate(342deg);
+}
+
+.clock .clock--arrow[data-value="56"] {
+  transform: rotate(336deg);
+}
+
+.clock .clock--arrow[data-value="55"] {
+  transform: rotate(330deg);
+}
+
+.clock .clock--arrow[data-value="54"] {
+  transform: rotate(324deg);
+}
+
+.clock .clock--arrow[data-value="53"] {
+  transform: rotate(318deg);
+}
+
+.clock .clock--arrow[data-value="52"] {
+  transform: rotate(312deg);
+}
+
+.clock .clock--arrow[data-value="51"] {
+  transform: rotate(306deg);
+}
+
+.clock .clock--arrow[data-value="50"] {
+  transform: rotate(300deg);
+}
+
+.clock .clock--arrow[data-value="49"] {
+  transform: rotate(294deg);
+}
+
+.clock .clock--arrow[data-value="48"] {
+  transform: rotate(288deg);
+}
+
+.clock .clock--arrow[data-value="47"] {
+  transform: rotate(282deg);
+}
+
+.clock .clock--arrow[data-value="46"] {
+  transform: rotate(276deg);
+}
+
+.clock .clock--arrow[data-value="45"] {
+  transform: rotate(270deg);
+}
+
+.clock .clock--arrow[data-value="44"] {
+  transform: rotate(264deg);
+}
+
+.clock .clock--arrow[data-value="43"] {
+  transform: rotate(258deg);
+}
+
+.clock .clock--arrow[data-value="42"] {
+  transform: rotate(252deg);
+}
+
+.clock .clock--arrow[data-value="41"] {
+  transform: rotate(246deg);
+}
+
+.clock .clock--arrow[data-value="40"] {
+  transform: rotate(240deg);
+}
+
+.clock .clock--arrow[data-value="39"] {
+  transform: rotate(234deg);
+}
+
+.clock .clock--arrow[data-value="38"] {
+  transform: rotate(228deg);
+}
+
+.clock .clock--arrow[data-value="37"] {
+  transform: rotate(222deg);
+}
+
+.clock .clock--arrow[data-value="36"] {
+  transform: rotate(216deg);
+}
+
+.clock .clock--arrow[data-value="35"] {
+  transform: rotate(210deg);
+}
+
+.clock .clock--arrow[data-value="34"] {
+  transform: rotate(204deg);
+}
+
+.clock .clock--arrow[data-value="33"] {
+  transform: rotate(198deg);
+}
+
+.clock .clock--arrow[data-value="32"] {
+  transform: rotate(192deg);
+}
+
+.clock .clock--arrow[data-value="31"] {
+  transform: rotate(186deg);
+}
+
+.clock .clock--arrow[data-value="30"] {
+  transform: rotate(180deg);
+}
+
+.clock .clock--arrow[data-value="29"] {
+  transform: rotate(174deg);
+}
+
+.clock .clock--arrow[data-value="28"] {
+  transform: rotate(168deg);
+}
+
+.clock .clock--arrow[data-value="27"] {
+  transform: rotate(162deg);
+}
+
+.clock .clock--arrow[data-value="26"] {
+  transform: rotate(156deg);
+}
+
+.clock .clock--arrow[data-value="25"] {
+  transform: rotate(150deg);
+}
+
+.clock .clock--arrow[data-value="24"] {
+  transform: rotate(144deg);
+}
+
+.clock .clock--arrow[data-value="23"] {
+  transform: rotate(138deg);
+}
+
+.clock .clock--arrow[data-value="22"] {
+  transform: rotate(132deg);
+}
+
+.clock .clock--arrow[data-value="21"] {
+  transform: rotate(126deg);
+}
+
+.clock .clock--arrow[data-value="20"] {
+  transform: rotate(120deg);
+}
+
+.clock .clock--arrow[data-value="19"] {
+  transform: rotate(114deg);
+}
+
+.clock .clock--arrow[data-value="18"] {
+  transform: rotate(108deg);
+}
+
+.clock .clock--arrow[data-value="17"] {
+  transform: rotate(102deg);
+}
+
+.clock .clock--arrow[data-value="16"] {
+  transform: rotate(96deg);
+}
+
+.clock .clock--arrow[data-value="15"] {
+  transform: rotate(90deg);
+}
+
+.clock .clock--arrow[data-value="14"] {
+  transform: rotate(84deg);
+}
+
+.clock .clock--arrow[data-value="13"] {
+  transform: rotate(78deg);
+}
+
+.clock .clock--arrow[data-value="12"] {
+  transform: rotate(72deg);
+}
+
+.clock .clock--arrow[data-value="11"] {
+  transform: rotate(66deg);
+}
+
+.clock .clock--arrow[data-value="10"] {
+  transform: rotate(60deg);
+}
+
+.clock .clock--arrow[data-value="9"] {
+  transform: rotate(54deg);
+}
+
+.clock .clock--arrow[data-value="8"] {
+  transform: rotate(48deg);
+}
+
+.clock .clock--arrow[data-value="7"] {
+  transform: rotate(42deg);
+}
+
+.clock .clock--arrow[data-value="6"] {
+  transform: rotate(36deg);
+}
+
+.clock .clock--arrow[data-value="5"] {
+  transform: rotate(30deg);
+}
+
+.clock .clock--arrow[data-value="4"] {
+  transform: rotate(24deg);
+}
+
+.clock .clock--arrow[data-value="3"] {
+  transform: rotate(18deg);
+}
+
+.clock .clock--arrow[data-value="2"] {
+  transform: rotate(12deg);
+}
+
+.clock .clock--arrow[data-value="1"] {
+  transform: rotate(6deg);
+}
+
+.clock .clock--arrow[data-value="0"] {
+  transform: rotate(0deg);
+}

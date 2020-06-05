@@ -4,7 +4,7 @@
         <h1> Applications </h1>
         <ul></ul>
         <a href="../../APPS/Calculator/index.php" class="button">Calculator</a>
-        <a href="#" class="button">Analog Clock</a>
+        <a href="../../APPS/AnalogClock/index.php" class="button">Analog Clock</a>
         <div class="separate"></div>
     </div>
 </div>
