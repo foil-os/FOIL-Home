@@ -10,7 +10,7 @@ function autoDisplay() {
     }
 
 
-    if (19 <= currentClock&&currentClock < 7) {
+    else {
      document.write("<link rel='stylesheet' href='../../System_Files/css/night.css' type='text/css'>");
     }
 
