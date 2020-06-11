@@ -12,6 +12,7 @@
 <body>
 
     <div class="main-screen color">
+      <div class="window-blinds-effect">
         <h1>
             <div class="clock"></div>
         </h1>
@@ -19,7 +20,10 @@
             <script src="/System_Files/js/Greeting.js"></script>
         </h2>
         <script src="/System_Files/js/FOIL-Time.js"></script>
+      </div>
     </div>
+  </div>
+
 
 
     <div class="main-secondary-screen color">
