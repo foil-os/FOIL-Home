@@ -47,14 +47,6 @@
   color: red;
   transition-duration: 0.2s;
 }
-
-.close:hover {
-  color: rgb(247, 111, 0);
-}
-.close:active {
-  color: rgb(0, 153, 0);
-}
-
 .Optionsclose {
   position: absolute;
   top: 20px;
@@ -68,4 +60,10 @@
   max-height: 30%;
   width: 30%;
   overflow: auto;
+}
+.close:hover {
+  color: rgb(247, 111, 0);
+}
+.close:active {
+  color: rgb(0, 153, 0);
 }
