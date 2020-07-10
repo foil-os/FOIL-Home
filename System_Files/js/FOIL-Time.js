@@ -1,75 +1,53 @@
 /* FOIL Time.js */
-/* FOIL-Time.js displays the 24 hour time and the date */
+/* FOIL-Time.js displays the 24 hour time, 12 hour time, and the date. */
 
-/* 24 hour Clock */
+// Make a Function called "time()".
+function time() {
 
-function clock() {
-    var time = new Date(),
-      // Hours
-        hours = time.getHours(),
-        // Minutes 
-        minutes = time.getMinutes(),
+    // Make a Variable called "DATE" to call the "new Date();" object.
+    var DATE = new Date();
+  
+    // Make a Variable for Hours, Minutes, and AM or PM.
+    var HOURS = DATE.getHours() , MINUTES = DATE.getMinutes(), INDICATOR;
 
-        // Seconds is invisable
-        seconds = time.getSeconds();
-    document.querySelectorAll('.clock')[0].innerHTML = FOIL(hours) + ":" + FOIL(minutes);
-
-    function FOIL(calculate) {
-        if (calculate < 10) {
-            calculate = '0' + calculate
-        }
-        return calculate
+    // Make a if-else statement for the time.
+    if (HOURS == 0) {
+      INDICATOR = " am";
+      HOURS = 12;
     }
-}
+
+    else if (HOURS < 12) {
+      INDICATOR = " am";
+    } 
+
+    else if (HOURS == 12) {
+      INDICATOR = " pm";
+    } 
+
+    else if (HOURS > 12) {
+      INDICATOR = " pm"; 
+      HOURS -= 12;
+    }
+  
+    if (MINUTES <= 9) MINUTES = "0" + MINUTES;
 
 
+    // Make a Variable called "PRINT".
+    var PRINT = "" + HOURS + ":" + MINUTES + INDICATOR + "";
 
-// Interval must be set to 0 in order to sync to system time 
-setInterval(clock, 0);
-
-
-
-// arrayMonth only displays 12 objects for the 12 months of the year. See Line 56
-var arraymonth=[
-"January",
-"February",
-"March",
-"April",
-"May",
-"June",
-"July",
-"August",
-"September",
-"October",
-"November",
-"December"];
+    // Print out the time.
+    document.getElementById("time_service").innerHTML = PRINT;
+  }
+  
+    // Call the "time()" function.
+   time();
+  
+   // Use "SetInterval" to update the clock per 1 second.
+   setInterval(time, 1000);
 
 
+   // Use "console.log" for the "time()" function.
+   console.log(time + "*******************IT IS WORKING*******************************");
 
-function date(){
-var d=new Date();
-var outputmonth=d.getMonth(),outputdate=d.getDate(),outputyear=d.getFullYear();
-
-
-
-
-var display=
-// Sync the arraymonth into outputmonth which is equals to getMonth which contains the 12 months of the year on the arraymonth array 
-""+arraymonth[outputmonth]
-
-
-+" "
-// Display the Date
-+outputdate
-+", "
-// Display the Year
-+outputyear+"";
-// Call the Function
-
-document.getElementById('date').innerHTML=display;
-}
-
-
-date();
-// Interval must be 0 in order to sync to system time
-setInterval(date,0);
+   // Use "SetInterval" for the console.log for the "time()" function.
+   setInterval(console.log(time));
