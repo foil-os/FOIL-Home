@@ -1,56 +1,37 @@
-# FOIL-Home
-<b>FOÏL Home is a Smart Home Automation System that not only just control Lights, Air Conditioning, and most other things in the house that most smart homes use, but it controls other unique things in the house based on robotics, such as turning on a faucet, flushing toilets, automatically opening the front door, and much more.</b>
+<center><img src="FOIL-Home-Logo.png"></img> </center>
+<ul></ul>
+<b>FOÏL Home, which is a Smart Home Automation System that not only control lights and air conditioning, it also can control most other things in the house such as turning on a faucet, flushing toilets, automatically opening the front door, and much more. The goal for this project is to help people with intellectual and developmental disabilities, as well as more accessibility.</b>
 
-
+### Table of Contents
+- [Installation](#installation)
+- [Manual Configurations](#manual-configurations)
+    - [visudo](#visudo)
+    - [Change Directory of the Localhost on Apache Server](#change-directory-of-the-localhost-on-apache-server)
 
 ## Installation
 
-1.  <b> Use the APT package manager to install git using sudo. </b>
+<b> Run the install.sh file and grab a cup of coffee, or take a break. This file will install the FOIL-Home Software. Throughout the installation, there will be some manual configurations that are required for FOIL-Home to work properly, which is shown under Manual Configuration. Note: The install.sh file may not be stable enough yet to use it to installing the FOIL-Home Software. The install.sh file content will be subjected to change over the beta update period.   </b>
 ```bash
-sudo apt install git 
-```
-2. <b>Use the APT package manager to install Apache </b>
-```bash
-sudo apt install apache2
-```
-3. <b> Use the APT package manager to install PHP </b>
-```bash
-sudo apt install php
-```
-4. <b> Use the APT package manager to install chromium-browser </b>
-```bash
-sudo apt install chromium-browser
+sh install.sh
 ```
 
 
-
-## Configuration
-1. <b> Use chmod 777 command to disable Read-Only mode on the folder using sudo </b>
-``` bash
-## This will disable Read-Only Mode
-sudo chmod 777 /var/www/html/
-```
-2. <b> Then use the chmod 777 command to disable Read-Only mode on index.html using sudo </b>
-```bash
-sudo chmod 777 /var/www/html/index.html
-```
-3. <b> Then use the "cd" command to change directory to the "/var/www/html/" folder </b>
-
-```bash
-cd /var/www/html
-```
-
-4. <b> Then use git to install FOIL-Home on the "/var/www/html/" folder.  </b>
-
-```bash
-git clone https://github.com/foil-os/FOIL-Home
-```
-
-5. <b> Then use visudo to configure Shut-Down, and Restart right from the web browser components.</b>
+## Manual Configurations
+#### visudo 
+<b> In visudo, there are some additions and permissions in-order for FOIL-Home to work properly. This file will open in the NANO Editor.  </b>
 ```bash
 ## Under the "includedir /etc/sudoers.d" section, type these commands :
 www-data ALL=NOPASSWD:/sbin/shutdown
 www-data ALL=NOPASSWD:/sbin/shutdown-h
 www-data ALL=NOPASSWD:/sbin/sleep
 www-data ALL=NOPASSWD:/sbin/halt
+```
+
+
+#### Change Directory of the Localhost on Apache Server 
+<b> Once you exit the editor, it will take you to the "000-default.conf" file, which is file where you can change the directory of the localhost. </b>
+```bash
+## Under the "ServerAdmin webmaster@localhost, next to "DocumentRoot"
+## Change directory to
+DocumentRoot /var/www/html/FOIL-Home/
 ```
