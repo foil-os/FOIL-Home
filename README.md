@@ -18,7 +18,7 @@ sh install.sh
 
 ## Manual Configurations
 #### visudo 
-<b> In visudo, there are some additions and permissions in-order for FOIL-Home to work properly. This file will open in the NANO Editor.  </b>
+<b> In visudo, there are some additions and permissions in-order for FOIL-Home to work properly. This file will open in any type of editor that is used by default for visudo.  </b>
 ```bash
 ## Under the "includedir /etc/sudoers.d" section, type these commands :
 www-data ALL=NOPASSWD:/sbin/shutdown
