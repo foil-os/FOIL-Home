@@ -21,7 +21,7 @@
     <div class="main-screen color-one">
         <a href="./settings.change.theme.menu.php" class="button">Change Theme</a>
         <a href="settings.change.date.and.time.menu.php" class="button">Change Date and Time</a>
-        <a href="#" class="button">About FOIL-Home </a>
+        <a href="settings.about.foil.home.menu.php" class="button">About FOIL-Home </a>
     </div>
 
 
