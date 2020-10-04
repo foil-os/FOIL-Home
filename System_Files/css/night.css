@@ -20,6 +20,7 @@ h1 {
   text-decoration: none;
   color: white;
   transition-duration: 0.2s;
+  display: inline-block;
 }
 
 

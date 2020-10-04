@@ -17,6 +17,7 @@
     <div> 
         <h1> Release Notes for v.0.7.1-beta </h1> 
         <li> Activated the "About FOIL-Home" functionalities in the Settings App. You can view the latest release notes as well as viewing the system information.  </li>
+        <li> Prevent overlapping of the buttons for certain devices. </li>
     </div>
 </body>
 
