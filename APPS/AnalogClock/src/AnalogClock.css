@@ -1,7 +1,7 @@
 /* AnalogClock.css */
-body{
-  background-color:black;
-  color:white;
+body {
+  background-color: black;
+  color: white;
 }
 
 .clock {
@@ -14,9 +14,11 @@ body{
   height: 400px;
   /* Background color for inside of the analog clock */
   background-color: white;
-
   border-radius: 50%;
+  animation-name: clock_start_animation;
+  animation-duration: 3s;
 }
+
 
 .clock:after {
   content: "";
@@ -78,17 +80,8 @@ body{
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
 }
 
-
-
-
-
-
-
-
-
-
-/* CLOCK ALGORITHM FOR THE WHOLE CLOCK  */  
-   .clock .clock--arrow[data-value="60"] {
+/* CLOCK ALGORITHM FOR THE WHOLE CLOCK  */
+.clock .clock--arrow[data-value="60"] {
   transform: rotate(360deg);
 }
 
@@ -330,4 +323,34 @@ body{
 
 .clock .clock--arrow[data-value="0"] {
   transform: rotate(0deg);
+}
+
+
+/* Animations */
+/* When the user starts the analog clock app, the starting animation will occur. */
+@keyframes clock_start_animation {
+  from {
+    position: absolute;
+    /* Left command must be 50 % */
+    left: 50%;
+    margin-left: -2000px;
+    margin-top: 500px;
+    width: 4000px;
+    height: 4000px;
+    /* Background color for inside of the analog clock */
+    background-color: white;
+    border-radius: 50%;
+  }
+  to {
+    position: absolute;
+    /* Left command must be 50 % */
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    /* Background color for inside of the analog clock */
+    background-color: white;
+    border-radius: 50%;
+  }
 }

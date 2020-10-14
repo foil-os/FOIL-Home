@@ -31,7 +31,7 @@
             system_info += "<p>Platform: " + navigator.platform + "</p>";
             system_info += "<p>User-agent header: " + navigator.userAgent + "</p>";
             system_info += "<p>Vendor:" + navigator.vendor +"</p>";
-            system_info += "<p>Version: v.0.7.1-beta" + "</p>";
+            system_info += "<p>Version: v.0.7.1.1-beta" + "</p>";
 
             document.getElementById("system_info").innerHTML = system_info;
         </script>

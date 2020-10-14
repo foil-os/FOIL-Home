@@ -15,9 +15,10 @@
     </ul>
 
     <div> 
-        <h1> Release Notes for v.0.7.1-beta </h1> 
-        <li> Activated the "About FOIL-Home" functionalities in the Settings App. You can view the latest release notes as well as viewing the system information.  </li>
-        <li> Prevent overlapping of the buttons for certain devices. </li>
+        <h1> Release Notes for v.0.7.1.1-beta </h1> 
+        <li> Introducing Animations to the FOIL-Home User Interface. <hr> </hr> The purpose of having more animations to the FOIL-Home User Interface, 
+             is to have more, unique user experience design when the user interacts with the controls, or an application in FOIL-Home. This also applies with more accessibility
+             as well.   </li>
     </div>
 </body>
 
