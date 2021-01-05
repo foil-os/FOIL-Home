@@ -4,8 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings Application</title>
-    <link href="settings.css" rel="stylesheet">
-    <link href="../../System_Files/css/FOIL-UI.css" rel="stylesheet">
+    <link href="../settings.css" rel="stylesheet">
+    <link href="../../../System_Files/css/FOIL-UI.css" rel="stylesheet">
 
 </head>
 
