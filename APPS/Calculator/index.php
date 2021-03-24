@@ -1,63 +1,160 @@
+<!--
+┌─────────────────────────────────────┐
+│                                     │
+│     ┌─────────────────────────┐     │
+│     │        CALCULATOR       │     │
+│     └─────────────────────────┘     │
+│                                     │
+│     ┌────┐ ┌────┐ ┌────┐   ┌────┐   │
+│     │ 7  │ │ 8  │ │ 9  │   │ x  │   │
+│     │    │ │    │ │    │   │    │   │
+│     └────┘ └────┘ └────┘   └────┘   │
+│                                     │
+│     ┌────┐ ┌────┐ ┌────┐   ┌────┐   │
+│     │ 4  │ │ 5  │ │ 6  │   │ -  │   │
+│     │    │ │    │ │    │   │    │   │
+│     └────┘ └────┘ └────┘   └────┘   │
+│                                     │
+│     ┌────┐  ┌────┐ ┌────┐ ┌──────┐  │
+│     │ 1  │  │ 2  │ │ 3  │ │  +   │  │
+│     │    │  │    │ │    │ │      │  │
+│     └────┘  └────┘ └────┘ └──────┘  │
+│                                     │
+│                                     │
+│                                     │
+│                                     │
+└─────────────────────────────────────┘
+-->
 <html>
-    <head>
-        <title>Calculator</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./src/calculator.css" rel="stylesheet">
-    </head>
-    <body>
-        <center>
-    <form name=calculator>
-    <table>
-        <tr>
-            <td colspan=5>
-                <input name=display id=display disabled>
-        <tr>
-            <td>
-                <input name=one onclick='calculator.display.value+="1"' class="button" type=button value=1>
-            <td>
-                 <input name=two onclick='calculator.display.value+="2"' class="button" type=button value=2>
-            <td>
-                <input name=three onclick='calculator.display.value+="3"' class="button" type=button value=3>
-            <td>
-                <input name=plus onclick='calculator.display.value+="+"' class="button" type=button value=+ class=operator>
-        <tr>
-            <td>
-                <input name=four onclick='calculator.display.value+="4"' class="button" type=button value=4>
-            <td>
-                <input name=five onclick='calculator.display.value+="5"' class="button" type=button value=5>
-            <td>
-                <input name=six onclick='calculator.display.value+="6"' class="button" type=button value=6>
-            <td>
-                <input name=minus onclick='calculator.display.value+="-"' class="button" type=button value=- class=operator>
-        <tr>
-            <td>
-                <input name=seven onclick='calculator.display.value+="7"' class="button" type=button value=7>
-            <td>
-                <input name=eight onclick='calculator.display.value+="8"' class="button" type=button value=8>
-            <td>
-                <input name=nine onclick='calculator.display.value+="9"' class="button" type=button value=9>
-            <td>
-                <input name=times onclick='calculator.display.value+="*"' class="button" type=button value=x class=operator>
-        <tr>
-            <td>
-                <input name=clear onclick='calculator.display.value=""' class="button" type=button value=RESET id=clear>
-            <td>
-                <input name=zero onclick='calculator.display.value+="0"' class="button" type=button value=0>
-            <td>
-                <input name=doit onclick="calculator.display.value=eval(calculator.display.value)" class="button" type=button value="=">
-            <td>
-
-                <input name=div onclick='calculator.display.value+="/"' class="button" type=button value=/ class=operator>
-                <a href="../../index.php" class="button">Back to Home Menu</a>
-
-            </td>
-        </tr>
-        </td>
-        </tr>
 
 
-    </table>
+<head>
+
+
+<title>Calculator</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="./src/calculator.css" rel="stylesheet">
+
+
+<link href="../../System_Files/css/FOIL-UI.css" rel="stylesheet">
+
+
+<link href="../../System_Files/css/day.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+<div class="FOIL-Navigation-Bar color-is-green">
+
+
+<a href="../../index.php" class="FOIL-button-small color-is-red">Back</a>
+
+
+</div>
+
+
+<div class="FOIL-Layout color-is-green">
+
+
+<div id='result'>
+
+
+<form name="calculator">
+
+
+<input type="text" name="answer" />
+
+
+<br>
+
+
+<input type="button" value=" 1 " class="button" onclick="calculator.answer.value += '1'" />
+
+
+<input type="button" value=" 2 " class="button" onclick="calculator.answer.value += '2'" />
+
+
+<input type="button" value=" 3 " class="button" onclick="calculator.answer.value += '3'" />
+
+
+<input type="button" value=" + " class="button"onclick="calculator.answer.value += '+'" />
+
+
+<br/>
+
+<input type="button" value=" 4 " class="button"onclick="calculator.answer.value += '4'" />
+
+
+<input type="button" value=" 5 " class="button" onclick="calculator.answer.value += '5'" />
+
+
+<input type="button" value=" 6 " class="button" onclick="calculator.answer.value += '6'" />
+
+
+<input type="button" value=" - " class="button" onclick="calculator.answer.value += '-'" />
+
+<br>
+
+
+<input type="button" value=" 7 " class="button" onclick="calculator.answer.value += '7'" />
+
+
+<input type="button" value=" 8 "  class="button" onclick="calculator.answer.value += '8'" />
+
+
+<input type="button" value=" 9 "  class="button" onclick="calculator.answer.value += '9'" />
+
+
+<input type="button" value=" x "  class="button" onclick="calculator.answer.value += '*'" />
+
+
+</br>
+
+<input type="button" value=" c "  class="button" onclick="calculator.answer.value = ''" />
+
+
+<input type="button" value=" 0 "  class="button" onclick="calculator.answer.value += '0'" />
+
+
+<input type="button" value=" = "  class="button" onclick="calculator.answer.value = eval(calculator.answer.value)" />
+
+
+<input type="button" value=" / "  class="button" onclick="calculator.answer.value += '/'" />
+
+
+</br>
+
+
+<br>
+
+
+</div>
+
+
 </form>
-        </center>
-    </body>
+
+
+</center>
+
+
+</div>
+
+
+</form>
+
+
+</div>
+
+
+</body>
+
+
 </html>

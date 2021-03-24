@@ -75,8 +75,8 @@
 
         <!-- Release Notes -->
         <div class="FOIL-Layout color-is-black">
-            <h1> Release Notes for [v.0.8-beta ] </h1>
-            <li> Redesigned the Settings App in FOIL-Home with all functionalities activated.</li> 
+            <h1> Release Notes for [v.0.8.1-beta ] </h1>
+            <li>Redesigned the Calculator App in FOÏL-Home. This will help with solving accessibility issues in FOÏL-Home. </li> 
             <ul> </ul>
         </div>
         </div>
