@@ -4,6 +4,7 @@
   <title>Analog Clock</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./src/AnalogClock.css" rel="stylesheet">
+  <link href="../../System_Files/css/accessibility.css" rel="stylesheet">
   <script src="./src/AnalogClock.js"></script>
 </head>
 

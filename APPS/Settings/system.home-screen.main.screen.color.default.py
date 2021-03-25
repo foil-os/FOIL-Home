@@ -13,7 +13,6 @@ h1 {
 
 /* Buttons with Options */
 .button {
-  font-size: 25px;
   background-color: rgb(49, 49, 49);
   padding: 16px 32px;
   margin: 27px;
@@ -117,4 +116,4 @@ h1 {
 user.close()
 
 user = open("../../System_Files/css/day.css", "r")
-print(f.read()) 
+print(f.read())

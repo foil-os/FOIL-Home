@@ -1,0 +1,29 @@
+/* Accessibility.css */
+@import url('./day.css');
+@import url('./FOIL-Bar.css');
+@import url('./FOIL-UI.css');
+
+body{
+  /* Keyword values */
+zoom: .80;
+}
+
+.button {
+  font-size: 18px;
+  background-color: rgb(49, 49, 49);
+  padding: 16px 32px;
+  margin: 27px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: rgb(170, 111, 0);
+}
+
+.button:active {
+  background-color: rgb(0, 153, 0);
+}

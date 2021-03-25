@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/System_Files/css/FOIL-Bar.css" rel="stylesheet">
     <script src="/System_Files/js/Auto_Display.js"></script>
+    <link href="System_Files/css/accessibility.css" rel="stylesheet">
     <noscript>
         <link href="/System_Files/css/index.css" rel="stylesheet"></noscript>
 </head>
