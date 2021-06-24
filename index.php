@@ -12,7 +12,7 @@
    </head>
    
    <body>
-      <div class="main-screen color">
+      <div class="home-screen-main-screen">
          <div class="window-blinds-effect">
             <h1>
                <div id="time_service"></div>
@@ -25,8 +25,8 @@
       </div>
       </div>
       
-      <div class="main-secondary-screen color">
-         <div class="main-secondary-screen">
+      <div class="home-screen-secondary-screen">
+         <div class="home-screen-secondary-screen">
             <a href="#Applications" class="button">Applications</a>
             <?php include("System_Files/php/system-applications-menu.php"); ?>
          </div>

@@ -4,8 +4,8 @@ function autoDisplay() {
     var currentClock = new Date().getHours();
 
 
-
-    if (7 <= currentClock&&currentClock < 19) {
+	// This was changed temporary for debugging purposes
+    if (17 <= currentClock&&currentClock < 11) {
      document.write("<link rel='stylesheet' href='../../System_Files/css/day.css' type='text/css'>");
     }
 

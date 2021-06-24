@@ -52,34 +52,29 @@ h1 {
   text-align: right;
 }
 
-/* Main Screen on the top with options*/
-.main-screen {
+/* Home Screen Main Screen on the top with options*/
+.home-screen-main-screen {
+  background-color:white;
   color: black;
   padding: 100px 1px;
   border-radius: 20px;
-  animation-name: main_screen_animation;
+  animation-name: home_screen_main_screen_animation;
   animation-duration: 1s;
+  
 }
 
-.main-screen.color {
-  background-color: white;
-  color: black;
-  animation-name: main_screen_animation;
-  animation-duration: 1s;
-}
-
-/* Main Screen on the bottom with options */
-.main-secondary-screen {
+/* Home Screen Secondary Screen on the bottom with options */
+.home-screen-secondary-screen {
   color: black;
   padding: 88px 1px;
   border-radius: 0px;
   overflow: none;
-  animation-name: main_secondary_screen_animation;
+  animation-name: home_screen_main_secondary_screen_animation;
   animation-duration: 1s;
 }
 
 /* Animations */
-@keyframes main_secondary_screen_animation {
+@keyframes home_screen_main_secondary_screen_animation {
   from {
     background-color: white;
     padding: 880px 1px;
@@ -90,7 +85,7 @@ h1 {
   }
 }
 
-@keyframes main_screen_animation {
+@keyframes home_screen_main_screen_animation {
   from {
     background-color: black;
     padding: 880px 1px;

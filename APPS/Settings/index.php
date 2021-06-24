@@ -153,10 +153,10 @@ intellectual and developmental disabilities, as well as more accessibility.</b>
 <div class="FOIL-Layout color-is-black">
 
 
-<h1> Release Notes for [v.0.8.4-beta ] </h1>
+<h1> </h1>
 
 
-<li> Re-decorated code layouts in php files.</li>
+
 
 
 <ul> </ul>

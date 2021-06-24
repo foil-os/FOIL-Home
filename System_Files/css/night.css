@@ -54,12 +54,11 @@ h1 {
 }
 
 /* Main Screen on the top with options*/
-.main-screen {
-  color: white;
+.main-screen-get-color {
+  background-color: red;
+  color: black;
   padding: 100px 1px;
   border-radius: 20px;
-  border-color: white;
-  border-style: solid;
   animation-name: main_screen_animation;
   animation-duration: 1s;
 }
@@ -74,6 +73,14 @@ h1 {
   animation-duration: 1s;
 }
 
+.main-secondary-screen-color {
+  background-color: rgb(128, 128, 128);
+  color: black;
+  padding: 88px 1px;
+  border-radius: 20px;
+  animation-name: main_secondary_screen_animation;
+  animation-duration: 1s;
+}
 
 /* Animations */
 @keyframes main_secondary_screen_animation {
