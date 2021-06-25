@@ -5,7 +5,7 @@ function autoDisplay() {
 
 
 	// This was changed temporary for debugging purposes
-    if (17 <= currentClock&&currentClock < 11) {
+    if (7 <= currentClock&&currentClock < 19) {
      document.write("<link rel='stylesheet' href='../../System_Files/css/day.css' type='text/css'>");
     }
 

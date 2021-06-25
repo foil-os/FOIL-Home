@@ -1,3 +1,9 @@
+body{
+zoom: .80;
+}
+
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -8,25 +14,6 @@ h1 {
   font-size: 70px;
 }
 
-/* Buttons with Options */
-.button {
-  background-color: rgb(49, 49, 49);
-  padding: 16px 32px;
-  margin: 27px;
-  border-radius: 20px;
-  text-decoration: none;
-  color: white;
-  transition-duration: 0.2s;
-  display: inline-block;
-}
-
-.button:hover {
-  background-color: rgb(170, 111, 0);
-}
-
-.button:active {
-  background-color: rgb(0, 153, 0);
-}
 
 /* Window Blinds Effect */
 .window-blinds-effect {
@@ -54,7 +41,7 @@ h1 {
 
 /* Home Screen Main Screen on the top with options*/
 .home-screen-main-screen {
-  background-color:white;
+  background-color:red;
   color: black;
   padding: 100px 1px;
   border-radius: 20px;
@@ -63,14 +50,25 @@ h1 {
   
 }
 
+.home-screen-main-screen.color {
+	background-color: green;
+	color:black;
+}
+
 /* Home Screen Secondary Screen on the bottom with options */
 .home-screen-secondary-screen {
+  background-color: yellow;
   color: black;
   padding: 88px 1px;
   border-radius: 0px;
   overflow: none;
   animation-name: home_screen_main_secondary_screen_animation;
   animation-duration: 1s;
+}
+
+.home-screen-secondary-screen.color {
+	background-color: orange;
+	color:black;
 }
 
 /* Animations */
