@@ -71,6 +71,29 @@ h1 {
 	color:black;
 }
 
+/* Buttons with Options */
+.button {
+  font-size: 18px;
+  background-color: rgb(49, 49, 49);
+  padding: 16px 32px;
+  margin: 27px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: rgb(170, 111, 0);
+}
+
+.button:active {
+  background-color: rgb(0, 153, 0);
+}
+
+
+
 /* Animations */
 @keyframes home_screen_main_secondary_screen_animation {
   from {

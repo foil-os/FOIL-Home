@@ -3,10 +3,7 @@
       <title>FOIL Home</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="/System_Files/css/FOIL-Bar.css" rel="stylesheet">
-      <link href="/System_Files/css/Home-UI-Home-Screen-Main-Screen-Day.css">
-      <link href="/System_Files/css/Home-UI-Home-Screen-Secondary-Screen-Night.css">
-      <link href="System_Files/css/Home-UI-Buttons.css" rel="stylesheet">
-      <link href="System_Files/css/Home-UI-Accessible-Zoom.css" rel="stylesheet">
+      <script src="/System_Files/js/Auto_Display.js"></script>
       <noscript>
          <link href="/System_Files/css/index.css" rel="stylesheet">
       </noscript>
