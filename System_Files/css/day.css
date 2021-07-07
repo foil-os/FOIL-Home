@@ -51,13 +51,13 @@ h1 {
 }
 
 .home-screen-main-screen.color {
-	background-color: green;
+	background-color: white;
 	color:black;
 }
 
 /* Home Screen Secondary Screen on the bottom with options */
 .home-screen-secondary-screen {
-  background-color: yellow;
+  background-color: transparent;
   color: black;
   padding: 88px 1px;
   border-radius: 0px;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .home-screen-secondary-screen.color {
-	background-color: orange;
+	background-color: transparent;
 	color:black;
 }
 

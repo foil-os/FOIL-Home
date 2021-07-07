@@ -61,7 +61,7 @@ h1 {
 
 /* Home Screen Main Screen on the top with options*/
 .home-screen-main-screen {
-  background-color:green;
+  background-color:red;
   color: black;
   padding: 100px 1px;
   border-radius: 20px;
@@ -70,15 +70,14 @@ h1 {
   
 }
 
-/* Home-Screen-Main-Screen Color Parameters */
 .home-screen-main-screen.color {
-	background-color: purple
-	color:black;
+	background-color: black;
+	color: white;
 }
 
 /* Home Screen Secondary Screen on the bottom with options */
 .home-screen-secondary-screen {
-  background-color: orange;
+  background-color: transparent;
   color: black;
   padding: 88px 1px;
   border-radius: 0px;
@@ -87,16 +86,15 @@ h1 {
   animation-duration: 1s;
 }
 
-/* Home-Screen-Secondary-Screen color Parameters */
 .home-screen-secondary-screen.color {
-	background-color: orange;
+	background-color: transparent;
 	color:black;
 }
 
 /* Animations */
 @keyframes home_screen_main_secondary_screen_animation {
   from {
-    background-color: white;
+    background-color: black;
     padding: 880px 1px;
   }
   to {
@@ -111,7 +109,7 @@ h1 {
     padding: 880px 1px;
   }
   to {
-    background-color: white;
+    background-color: black;
     padding: 88px 1px;
   }
 }
