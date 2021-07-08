@@ -1,4 +1,4 @@
-<?php exec('python3 system.foil-bar.color.orange.py'); ?>
+<?php exec('sh system.foil-bar.color.orange.sh'); ?>
 
 
 <meta http-equiv="refresh" content="0; url='index.php'" />
