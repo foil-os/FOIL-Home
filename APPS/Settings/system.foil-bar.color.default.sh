@@ -1,14 +1,10 @@
-user = open("../../System_Files/css/FOIL-bar.css", "w")
-user.write(
-"""
+cat <<EOF > ../../System_Files/css/FOIL-Bar.css
+
+
 /* 
-  _____  ___  ___  _          ____               
- |  ___|/ _ \|_ _|| |        | __ )   __ _  _ __ 
- | |_  | | | || | | |        |  _ \  / _` || '__|
- |  _| | |_| || | | |___     | |_) || (_| || |   
- |_|    \___/|___||_____|    |____/  \__,_||_|   
+
+FOIL-Bar.css  
                                             Build: FOIL HOME  
-                                            Automatically Generated based on User's Preferences
 
 */
 
@@ -39,7 +35,7 @@ user.write(
   margin: 2px auto;
   padding: 20px;
   text-align: left;
-  background-color: rgb(67, 69, 91);
+  background-color: rgb(7, 33, 30);
   border-radius: 20px;
   width: auto;
   position: center;
@@ -127,14 +123,5 @@ user.write(
 
 
 
+EOF
 
-
-
-
-
-
-""")
-user.close()
-
-user = open("../../System_Files/css/FOIL-bar.css", "r")
-print(f.read()) 
