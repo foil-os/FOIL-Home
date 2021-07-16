@@ -1,4 +1,4 @@
-<?php exec('python3 system.time-date-twenty-four-hour.py'); ?>
+<?php exec('sh system.time-date-twenty-four-hour.sh'); ?>
 
 
 <meta http-equiv="refresh" content="0; url='index.php'" />

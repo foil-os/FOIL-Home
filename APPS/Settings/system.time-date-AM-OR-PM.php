@@ -1,5 +1,5 @@
-<?php exec('python3 system.time-date-AM-OR-PM.py'); ?>
-
+<?php exec('sh system.time-date-AM-OR-PM.sh'); ?>
+	
 
 <meta http-equiv="refresh" content="0; url='index.php'" />
 <!--
