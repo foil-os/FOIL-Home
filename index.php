@@ -18,11 +18,11 @@
          <button class="FOIL-button-small color-is-red"><FOIL-Font-Size-31>&#9212;</FOIL-Font-Size-31> <FOIL-Font-Size-13>Restart</FOIL-Font-Size-14></button>
       </div>
          
-      <div class="home-screen-main-screen">
+      <div class="FOIL-Layout">
          <div class="window-blinds-effect">
-            <h1>
+            <FOIL-Font-Size-92>
                <div id="time_service"></div>
-            </h1>
+            </FOIL-Font-Size-92>
             <h2>
                <script src="/System_Files/js/Greeting.js"></script>
             </h2>
