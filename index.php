@@ -48,9 +48,9 @@
 
                 <!-- APPS -->
 
-                <a href="#" class="FOIL-button-small color-is-black">Back</a>
-                <a href="#" class="FOIL-button-small color-is-black">Analog Clock</a>
-                <a href="#" class="FOIL-button-small color-is-black">Settings</a>
+                <a href="#" class="FOIL-button-small">Back</a>
+                <a href="#" class="FOIL-button-small">Analog Clock</a>
+                <a href="#" class="FOIL-button-small">Settings</a>
 
         </div>
 
@@ -66,11 +66,11 @@
 
                 <!-- Buttons -->
 
-                <button class="FOIL-button color-is-black">APP 1</button>
-                <button class="FOIL-button color-is-black">APP 2</button>
-                <button class="FOIL-button color-is-black">APP 3</button>
-                <button class="FOIL-button color-is-black">APP 4</button>
-                <button class="FOIL-button color-is-black">APP 5</button>
+                <button class="FOIL-button">APP 1</button>
+                <button class="FOIL-button">APP 2</button>
+                <button class="FOIL-button">APP 3</button>
+                <button class="FOIL-button">APP 4</button>
+                <button class="FOIL-button">APP 5</button>
         </div>
 
 
