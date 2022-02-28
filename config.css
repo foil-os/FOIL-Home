@@ -17,6 +17,8 @@
          background-color: transparent;
          box-shadow: none;
          border-color:rgba(255, 255, 255, 0.171);
+         animation-name: animate-button;
+         animation-duration:2s;
          border-style:solid;
  }
  
@@ -25,6 +27,8 @@
          background-color: transparent;
          border-color:rgba(255, 255, 255, 0.171);
          box-shadow: none;
+         animation-name: animate-button-small;
+         animation-duration:2s;
          border-style:solid;
          
          
@@ -34,7 +38,47 @@
  .FOIL-Layout {
          background-color:transparent;
          box-shadow: none;
+         animation-name: animate-layout;
+         animation-duration:2s;
          color:white;
  }
  
  
+
+ @keyframes animate-button-small{
+        from {
+                font-size: 100px;
+        }
+
+        to {
+                font-size: auto;
+        }
+}
+
+
+
+
+
+ @keyframes animate-button {
+         from {
+                 font-size: 100px;
+         }
+
+         to {
+                 font-size: auto;
+         }
+ }
+
+
+
+
+
+ @keyframes animate-layout {
+        from {
+                font-size: 100px;
+        }
+
+        to {
+                font-size: auto;
+        }
+}
