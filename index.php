@@ -28,7 +28,7 @@
 
 <body>
 
-      <!-- 
+        <!-- 
       This is where the buttons take place
       For example, Apps like Calculator, Analog Clock, and Settings are placed on the FOIL-UI Navigation bar for more 
       easier access, instead of eariler software versions of FOIL-Home. 
