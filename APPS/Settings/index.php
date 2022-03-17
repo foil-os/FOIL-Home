@@ -46,9 +46,21 @@
     <div class="FOIL-Layout">
         <h1>
             <FOIL-Font-Size-54>
-                Settings                        <!-- Settings app -->
+                Settings                                <!-- Settings Main Header -->
             </FOIL-Font-Size-54>
         </h1>
+
+        
+        <div class="FOIL-Layout">
+            <h1>
+                <FOIL-Font-Size-54>
+                    Date and Time                        <!-- Date and time Sub-header -->
+                </FOIL-Font-Size-54>
+            </h1>
+            <a href="#" class="FOIL-button">AM or PM</a>
+            <a href="#" class="FOIL-button">24 hour time</a>
+            <a href="#" class="FOIL-button">NO AM OR PM</a>
+        </div>
 
 
     </div>
