@@ -1,27 +1,11 @@
 <html>
-
-
 <head>
-
-
         <title>FOIL Home</title>
-
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
         <link href="/System_Files/css/FOIL-Bar.css" rel="stylesheet">
-
-
         <link href="/System_Files/css/FOIL-UI.css" rel="stylesheet">
-
-
         <link href="/System_Files/css/index.css" rel="stylesheet">
-
-
         <link href="config.css" rel="stylesheet">
-
-
 </head>
 
 
