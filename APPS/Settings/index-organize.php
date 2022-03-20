@@ -69,7 +69,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 */
 
 
-class mainMenu {
+class settings {
         const INCLUDE_USER_INTERFACES = "
                                         <link href='/System_Files/css/FOIL-Bar.css' rel='stylesheet'>  
                                         <link href='/System_Files/css/FOIL-UI.css' rel='stylesheet'>  
@@ -88,6 +88,9 @@ class mainMenu {
 
 
         const HEADER_APPS_LIST = "
+        				<a href='../../index.php' class='FOIL-button'>Back</a>
+        				<a href='../AnalogClock/index.php' class='FOIL-button'>Analog Clock</a>
+        				<a href='../Settings/index.php' class='FOIL-button'>Settings</a>
                                  ";
 
         const HEADER_POWER_OPTIONS_LIST = "
@@ -100,31 +103,45 @@ class mainMenu {
                                                 <button class='FOIL-button'>
                                                 <FOIL-Font-Size-31>&#9212; </FOIL-Font-Size-31>
                                                 <FOIL-Font-Size-13>Restart</FOIL-Font-Size-14>
-                                                 </button>
+                                                </button>
                                          ";
 
 
 
         const SUB_HEADER_CONTENTS = "
-                                        <div class='FOIL-Layout'>
-                                        <div class='window-blinds-effect'>
-                                        <FOIL-Font-Size-92>
-                                        <div id='time_service'></div>
-                                        </FOIL-Font-Size-92>
-                                        <h2>
-                                        <script src='/System_Files/js/Greeting.js'></script>
-                                        /h2>
-                                        <script src='/System_Files/js/FOIL-Time.js'></script>
-                                        </div>
-                                        </div>
+						<div class='FOIL-Layout'>
+						<h1>
+						<FOIL-Font-Size-54>
+						Settings                                
+						</FOIL-Font-Size-54>
+						</h1>
+						</div> 
+						<div class='FOIL-Layout'>
+						<h1>
+						<FOIL-Font-Size-54>
+						Date and Time                        
+						</FOIL-Font-Size-54>
+						</h1>
+						<a href='#' class='FOIL-button'>AM or PM</a>
+						<a href='#' class='FOIL-button'>24 hour time</a>
+						<a href='#' class='FOIL-button'>NO AM OR PM</a>
+						</div>
+						</div>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
                                     ";
 
 
         
 }
 
-echo mainMenu::INCLUDE_USER_INTERFACES;                 // ENABLE FOIL-UI COMPONENTS 
-echo mainMenu::GREETING_HEADER;                         // ENABLE GREETING HEADER
-echo mainMenu::HEADER_APPS_LIST;                        // ENABLE HEADER_APPS_LIST
-echo mainMenu::HEADER_POWER_OPTIONS_LIST;               // ENABLE HEADER_POWER_OPTIONS_LIST
-echo mainMenu::SUB_HEADER_CONTENTS;                     // ENABLE SUB HEADER CONTENTS
+echo settings::INCLUDE_USER_INTERFACES;                 // ENABLE FOIL-UI COMPONENTS 
+echo settings::GREETING_HEADER;                         // ENABLE GREETING HEADER
+echo settings::HEADER_APPS_LIST;                        // ENABLE HEADER_APPS_LIST
+echo settings::HEADER_POWER_OPTIONS_LIST;               // ENABLE HEADER_POWER_OPTIONS_LIST
+echo settings::SUB_HEADER_CONTENTS;                     // ENABLE SUB HEADER CONTENTS

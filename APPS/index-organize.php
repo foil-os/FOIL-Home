@@ -88,6 +88,9 @@ class mainMenu {
 
 
         const HEADER_APPS_LIST = "
+                                         <a href='../../APPS/Calculator/index.php' class='FOIL-button'>Calculator</a>
+                                        <a href='../../APPS/AnalogClock/index.php' class='FOIL-button'>Analog Clock</a>
+                                         <a href='../../APPS/Settings/index.php' class='FOIL-button'>Settings</a>
                                  ";
 
         const HEADER_POWER_OPTIONS_LIST = "
