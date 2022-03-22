@@ -88,7 +88,7 @@ class settings {
 
 
         const HEADER_APPS_LIST = "
-        				<a href='../../index.php' class='FOIL-button'>Back</a>
+        				<a href='../../index-organize.php' class='FOIL-button'>Back</a>
         				<a href='../AnalogClock/index.php' class='FOIL-button'>Analog Clock</a>
         				<a href='../Settings/index.php' class='FOIL-button'>Settings</a>
                                  ";
