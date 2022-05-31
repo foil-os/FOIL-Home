@@ -113,7 +113,7 @@ class mainMenu {
                                         </FOIL-Font-Size-92>
                                         <h2>
                                         <script src='/System_Files/js/Greeting.js'></script>
-                                        /h2>
+                                        </h2>
                                         <script src='/System_Files/js/FOIL-Time.js'></script>
                                         </div>
                                         </div>
